@@ -26,6 +26,8 @@
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./homepage/css/settings.css" />
     <link rel="stylesheet" href="./homepage/css/style.css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   </head>
 
   <body>
@@ -47,7 +49,7 @@
               <div class="main-navigation ">
                 
                 <div class="header-btns justify-content-end">
-                  <a href="#request-access" class="btn btn--primary btn--medium">DONATE NOW</a>
+                  <a href="https://donate.mercyships.org/for/sqtlgh/?_ga=2.62033701.882789364.1593882012-1870479415.1593882012" class="btn btn--primary btn--medium">DONATE NOW</a>
                 </div>
               </div>
               
@@ -77,7 +79,7 @@
                   </li>
                 </ul>
               </div> -->
-              <a href="#request-access" class="btn btn--primary btn--medium">DONATE NOW</a>
+              <a href="https://donate.mercyships.org/for/sqtlgh/?_ga=2.62033701.882789364.1593882012-1870479415.1593882012" class="btn btn--primary btn--medium">DONATE NOW</a>
             </div>
           </div>
         </div>
@@ -93,7 +95,7 @@
           <!-- Header buttons start -->
           <div class="header-btns offcanvas">
             <div class="header-btns justify-content-end">
-              <a href="#request-access" class="btn btn--primary btn--medium">DONATE NOW</a>
+              <a href="https://donate.mercyships.org/for/sqtlgh/?_ga=2.62033701.882789364.1593882012-1870479415.1593882012" class="btn btn--primary btn--medium">DONATE NOW</a>
             </div>
           </div>
           <!-- Header buttons end -->
@@ -101,21 +103,31 @@
       </aside>
       <!--Off Canvas Navigation End-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 <div class="hero">
   <div class="hero-pg">
-    <h3 class="herotitle">Mercy ships<br><span class="underline herotitle">hope</span></h3>
+    <h3 class="herotitle">Mercy ships<br><span class="underline herotitle" id="typing">hope</span></h3>
     <img class="underline-img" src="./homepage/image/underline.png" alt="" />
     <p>In times of uncertainty, you help bring a lasting legacy of healthcare—and hope—to every port we reach.</p>
-    <a href="#request-access" style="background-color: #002663" class="btn blue-btn btn--primary btn--medium">LEARN MORE</a>
+    <a href="https://www.mercyships.org/what-we-do/" style="background-color: #002663" class="btn blue-btn btn--primary btn--medium">LEARN MORE</a>
   </div>
   <div class="hero-img">
     <img src="./homepage/image/Group 6.png" alt="" />
   </div>
 </div>
 
+
+ <script>
+$(document).ready(function() {
+var options = {
+strings: ["hope", "joy", "love", "relief"],
+typeSpeed: 90,
+backSpeed: 90
+}
+var typed = new Typed("#typing", options);
+});
+</script>
 <style type="text/css">
 
   .underline{
@@ -126,6 +138,10 @@
     margin-left: -30px;
     margin-top:-30px;
     max-width: 300px;
+  }
+
+  .typed-cursor.typed-cursor--blink{
+    display: none !important;
   }
 
   .hero{
@@ -211,8 +227,8 @@
         </div>
         <div class="surgery-paragraph">
           <h3 class="libre">Maxillofacial Surgeries</h3>
-          <p>In times of uncertainty, you help bring a lasting legacy of healthcare—and hope—to every port we reach.</p>
-          <a href="#request-access" style="background-color: #002663" class="btn blue-btn  btn--primary btn--medium">LEARN MORE</a>
+          <p>Mercy Ships works to heal cleft conditions and facial tumors where specialized surgery doesn’t exist.</p>
+          <a href="https://www.mercyships.org/what-we-do/surgical-procedures/maxillofacial/" style="background-color: #002663" class="btn blue-btn  btn--primary btn--medium">LEARN MORE</a>
 
         </div>
       </div>
@@ -265,9 +281,9 @@
 
       <div class="surgeries-flex">
         <div class="surgery-paragraph maxo">
-          <h3 class="libre">Maxillofacial Surgeries</h3>
-          <p>In times of uncertainty, you help bring a lasting legacy of healthcare—and hope—to every port we reach.</p>
-          <a href="#request-access" style="background-color: #002663" class="btn blue-btn  btn--primary btn--medium">LEARN MORE</a>
+          <h3 class="libre">General Surgeries</h3>
+          <p>Mercy Ships provides free corrective surgeries for many conditions children and adults suffer from globally.</p>
+          <a href="https://www.mercyships.org/what-we-do/surgical-procedures/general-surgeries/" style="background-color: #002663" class="btn blue-btn  btn--primary btn--medium">LEARN MORE</a>
         </div>
         <div class="maxo-images">
           <img src="./homepage/image/Group 3b.png" id="before-height-two" class="before-two" alt="" />
@@ -363,6 +379,12 @@
     });
  </script>
  
+
+ <div style="margin: 40px auto; max-width: 800px; padding: 15px; text-align: center;">
+  <h3 class="libre">Help Save and Transform Lives</h3>
+  <p style="padding-bottom: 10px;">A single donation helps provide free surgeries for people living in the world’s poorest regions. And every dollar you give multiplies in impact.</p>
+<a href="https://donate.mercyships.org/for/sqtlgh/?_ga=2.62033701.882789364.1593882012-1870479415.1593882012" class="btn btn--primary btn--medium">DONATE NOW</a>
+</div>
  
     </div>
 
