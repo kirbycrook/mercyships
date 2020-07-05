@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Retrieved</title>
+    <link rel="shortcut icon" href="./homepage/image/favico.png" type="image/x-icon">
+    <!-- Plugins CSS -->
+    <link
+      rel="stylesheet"
+      href="./homepage/plugins/bootstrap-4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./homepage/plugins/meanmenu/meanmenu.css" />
+    <link rel="stylesheet" href="./homepage/plugins/slick-1.8.1/slick.css" />
+    <link
+      rel="stylesheet"
+      href="./homepage/plugins/fancybox-master/jquery.fancybox.min.css"
+    />
+    <link rel="stylesheet" href="./homepage/plugins/aos-animation/aos.css" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="./homepage/fonts/ep-icon-fonts/css/style.css" />
+    <link rel="stylesheet" href="./homepage/fonts/fontawesome-5/css/all.min.css" />
+    <link rel="stylesheet" href="./homepage/fonts/typography-font/typo-fonts.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./homepage/css/settings.css" />
+    <link rel="stylesheet" href="./homepage/css/style.css" />
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <!-- Header Starts -->
+      <header style="background-color: transparent;" class="site-header desktop-head position-relative d-none d-lg-block">
+        <div class="container-fluid pr-lg--30 pl-lg--30">
+          <div
+            class="row justify-content-between align-items-center position-relative"
+          >
+            <div class="col-sm-3 col-6 col-lg-2 col-xl-2 order-lg-1">
+              <!-- Brand Logo -->
+              <div class="brand-logo">
+                <a href=""><img class="logoimg" src="./homepage/image/logo.png" alt=""/></a>
+              </div>
+            </div>
+            <!-- Menu Block -->
+            <div class=" col-6 col-sm-1 col-lg-6 col-xl-8   position-static order-lg-2">
+              <div class="main-navigation ">
+                
+                <div class="header-btns justify-content-end">
+                  <a href="#request-access" class="btn btn--primary btn--medium">DONATE NOW</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Mobile menu Header Starts -->
+      <header
+        style="background-color: none;" class="mobile-header d-lg-none "
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4 col-3">
+              <a href="index.html" class="site-brand">
+                <img class="logoimg" src="./homepage/image/logo.png" alt="" />
+              </a>
+            </div>
+            <div class="col-md-8 col-9 text-right">
+              <!-- <div class="header-top-widget">
+                <ul class="header-links">
+                  <li class="single-link">
+                    <a href="#" class="link-icon hamburger-icon off-canvas-btn"
+                      ><i class="icon icon-menu-34"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div> -->
+              <a href="#request-access" class="btn btn--primary btn--medium">DONATE NOW</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--Off Canvas Navigation Start-->
+      <aside class="off-canvas-wrapper">
+        <div class="btn-close-off-canvas">
+          <i class="icon icon-simple-remove"></i>
+        </div>
+        <div class="off-canvas-inner">
+          
+
+          <!-- Header buttons start -->
+          <div class="header-btns offcanvas">
+            <div class="header-btns justify-content-end">
+              <a href="#request-access" class="btn btn--primary btn--medium">DONATE NOW</a>
+            </div>
+          </div>
+          <!-- Header buttons end -->
+        </div>
+      </aside>
+      <!--Off Canvas Navigation End-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<div class="hero">
+  <div class="hero-pg">
+    <h3 class="herotitle">Mercy ships<br><span class="underline herotitle">hope</span></h3>
+    <img class="underline-img" src="./homepage/image/underline.png" alt="" />
+    <p>In times of uncertainty, you help bring a lasting legacy of healthcare—and hope—to every port we reach.</p>
+    <a href="#request-access" style="background-color: #002663" class="btn blue-btn btn--primary btn--medium">LEARN MORE</a>
+  </div>
+  <div class="hero-img">
+    <img src="./homepage/image/Group 6.png" alt="" />
+  </div>
+</div>
+
+<style type="text/css">
+
+  .underline{
+    position: relative;
+  }
+
+  .underline-img{
+    margin-left: -30px;
+    margin-top:-30px;
+    max-width: 300px;
+  }
+
+  .hero{
+    display: flex;
+     width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .hero-img{
+    width: 140%;
+    margin-right: -40%;
+    margin-top: -40px;
+  }
+
+  .hero-pg{
+    padding-left: 100px;
+    margin-right: -50px;
+  }
+
+  .herotitle{
+    font-family: "Libre Bakersville Bold", serif;
+    font-size: 80px;
+    line-height: 1.1;
+  }
+
+   @media(max-width: 1100px){
+
+    .hero{
+      flex-wrap: wrap;
+      padding: 0px;
+    }
+
+    .herotitle{
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .underline-img{
+      margin: 0 auto;
+      margin-top: -20px;
+      text-align: center;
+      max-width: 300px;
+    }
+
+    .hero-img{
+      order: 1;
+      width: 140%;
+      margin-left: -20%;
+      margin-right: -20%;
+       margin-top: 0px;
+    }
+
+    .hero-img img{
+      width: 140%;
+    }
+
+    .hero-pg{
+      order: 2;
+      padding: 15px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+  }
+
+</style>
+
+
+<div style="margin: 40px auto; max-width: 1000px; padding: 15px; text-align: center;">
+  <h3 class="libre">Real people, life-changing surgeries</h3>
+  <p>In times of uncertainty, you help bring a lasting legacy of healthcare—and hope—to every port we reach.</p>
+
+</div>
+
+
+      <div class="surgeries-flex">
+        <div class="cleft-images">
+          <img src="./homepage/image/Group 4e.png" id="before-height" class="before" alt="" />
+          <img src="./homepage/image/Group 2d.png" id="after-height" class="after" alt="" />
+        </div>
+        <div class="surgery-paragraph">
+          <h3 class="libre">Maxillofacial Surgeries</h3>
+          <p>In times of uncertainty, you help bring a lasting legacy of healthcare—and hope—to every port we reach.</p>
+          <a href="#request-access" style="background-color: #002663" class="btn blue-btn  btn--primary btn--medium">LEARN MORE</a>
+
+        </div>
+      </div>
+
+ <style type="text/css">
+  .surgeries-flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .cleft-images{
+    position: relative;
+    width: auto;
+  }
+
+   .after{
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    clip:rect(0, auto, 0, auto) ;
+   }
+
+ </style>
+
+ <script>
+    $(window).scroll(function() {
+       var hT = $('#before-height').offset().top,
+           hH = $('#before-height').outerHeight(),
+           wH = $(window).height(),
+           wS = $(this).scrollTop();
+
+       
+           // $("#addit").html($(window).scrollTop());
+           var startingNum = $(window).scrollTop();
+           var newNum = startingNum - (hT+hH-wH)
+           var calcNum = newNum + (hH/2) - 50;
+           $("#addit").html(newNum);
+           $(".after").css('clip', 'rect(0, auto, ' + calcNum + 'px, auto)');
+       
+    });
+ </script>
+
+
+
+      <div class="surgeries-flex">
+        <div class="surgery-paragraph maxo">
+          <h3 class="libre">Maxillofacial Surgeries</h3>
+          <p>In times of uncertainty, you help bring a lasting legacy of healthcare—and hope—to every port we reach.</p>
+          <a href="#request-access" style="background-color: #002663" class="btn blue-btn  btn--primary btn--medium">LEARN MORE</a>
+        </div>
+        <div class="maxo-images">
+          <img src="./homepage/image/Group 3b.png" id="before-height-two" class="before-two" alt="" />
+          <img src="./homepage/image/Group 3a.png" id="after-height-two" class="after-two" alt="" />
+        </div>
+      </div>
+ <style type="text/css">
+   .maxo-images{
+    position: relative;
+    width: auto;
+   }
+
+   .libre{
+    font-family: "Libre Bakersville Bold", serif;
+    font-size: 32px;
+    padding-top: 15px;
+      padding-bottom: 15px;
+   }
+
+  .surgery-paragraph{
+    max-width: 500px;
+  }
+
+   .after-two{
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    clip:rect(0, auto, 0, auto) ;
+   }
+
+
+   @media(max-width: 1100px){
+
+    .surgeries-flex{
+      flex-wrap: wrap;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .surgery-paragraph{
+      width: 100%;
+      text-align: center;
+    }
+
+    .maxo-images{
+      width: 100%;
+      order:1;
+      margin: 0 auto;
+      margin-top: 60px;
+    }
+
+    .maxo{
+      order: 2;
+    }
+
+    .cleft-images{
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .after-two{
+      margin: 0 auto;
+    }
+
+
+    .after{
+      margin: 0 auto;
+    }
+
+    .libre{
+      font-size: 24px;
+
+    }
+   }
+ </style>
+
+ <script>
+    $(window).scroll(function() {
+       var hT = $('#before-height-two').offset().top,
+           hH = $('#before-height-two').outerHeight(),
+           wH = $(window).height(),
+           wS = $(this).scrollTop();
+
+       
+           // $("#addit").html($(window).scrollTop());
+           var startingNumTwo = $(window).scrollTop();
+           var newNumTwo = startingNumTwo - (hT+hH-wH)
+           var calcNumTwo = newNumTwo + (hH/2) - 50;
+           $("#addit").html(newNumTwo);
+           $(".after-two").css('clip', 'rect(0, auto, ' + calcNumTwo + 'px, auto)');
+       
+    });
+ </script>
+ 
+ 
+    </div>
+
+
+
+<style>
+.title{
+  padding-top: 20px;
+  font-family: "Super Grotesk Medium", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: normal !important;
+}
+
+.h2{
+  font-family: "Super Grotesk Medium", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: normal !important;
+}
+
+.brand-logo{
+  max-height: 50px;
+}
+
+.logoimg{
+  max-height: 50px;
+}
+
+.mw-fix{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.site-wrapper{
+  color: #353535 !important;
+}
+
+.blue-btn{
+  background-color: #002663 !important;
+}
+
+.title{
+  color: #353535 !important;
+}
+
+.pattern-bg{
+  overflow: hidden;
+}
+
+.testimonial-title{
+  color: #3f3f3f !important;
+}
+
+.dark-pattern{
+  max-width: 60%;
+  margin-bottom: -10%;
+}
+
+.light-img{
+    max-width: 19%;
+    margin-bottom: -5%;
+    margin-right: -50%;
+    margin-left: 80%;
+}
+
+.paragraph-text{
+  font-size: 18px !important;
+}
+
+.paragraph-text-hero{
+  font-size: 32px !important;
+  line-height: 1.6 !important;
+}
+
+.btn--primary{
+  background-color: #FA7325;
+      font-family: "Super Grotesk Medium", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      font-weight: normal !important;
+      letter-spacing: 1.5px;
+}
+
+.btn--primary:hover{
+  background-color: #002663;
+}
+
+.title-fix{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media (min-width: 992px){
+  .h2{
+    font-size: 40px;
+  }
+}
+
+.desktop-head{
+  position: fixed !important;
+  top:0 !important;
+  width:100% !important;
+  padding-bottom: 15px;
+  z-index: 10;
+}
+
+.active-head{
+    background-color: #ffffff !important;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+ @media(max-width: 768px){
+
+  .mobile-pd-fix{
+    padding-top: 100px;
+  }
+
+  .title-fix{
+    padding-left: 0;
+    padding-right:0;
+  }
+
+  .paragraph-text{
+    font-size: 18px !important;
+  }
+
+  .paragraph-text-hero{
+    font-size: 24px !important;
+    line-height: 1.6 !important;
+  }
+
+  .light-img{
+    max-width: 80%;
+    margin-bottom: -25%;
+    margin-right: -50%;
+    margin-left: 50%;
+  }
+
+  .dark-pattern{
+    margin-right: -30%;
+    margin-left: 70%;
+  }
+
+  .mobile-title{
+    font-size: 40px;
+  }
+
+  .mobile-header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .mobile-center{
+    text-align: center;
+  }
+
+  .boxes{
+        flex: 0 0 90% !important;
+    max-width: 90% !important;
+  }
+  .example-image{
+  width: 60%;
+  border-radius: 4px;
+}
+}
+</style>
+
+    <!-- Vendor JS-->
+    <script src="./homepage/plugins/jquery/jquery.min.js"></script>
+    <script src="./homepage/plugins/jquery/jquery-migrate.min.js"></script>
+    <script src="./homepage/plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
+
+    <!-- Plugins JS -->
+    <script src="./homepage/plugins/meanmenu/jquery.meanmenu.js"></script>
+    <script src="./homepage/plugins/slick-1.8.1/slick.min.js"></script>
+    <script src="./homepage/plugins/fancybox-master/jquery.fancybox.min.js"></script>
+    <script src="./homepage/plugins/aos-animation/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./homepage/js/active.js"></script>
+    <script>
+      $(window).on("scroll", function() {
+          if($(window).scrollTop() > 50) {
+              $(".desktop-head").addClass("active-head");
+          } else {
+              //remove the background property so it comes transparent again (defined in your css)
+             $(".desktop-head").removeClass("active-head");
+          }
+      });
+
+      $(window).on("scroll", function() {
+          if($(window).scrollTop() > 50) {
+              $(".mobile-header").addClass("active-head");
+          } else {
+              //remove the background property so it comes transparent again (defined in your css)
+             $(".mobile-header").removeClass("active-head");
+          }
+      });
+    </script>
+  </body>
+</html>
